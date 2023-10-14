@@ -15,7 +15,7 @@ body {
   h2 {
     font-weight: bolder;
     font-size: large;
-    color:blueviolet;
+    color: blueviolet;
   }
 
   nav ul {
@@ -26,7 +26,7 @@ body {
     flex-wrap: wrap;
   }
 
-  .imgcontainer {
+  #imgcontainer {
     order: -1;
     min-width: 100%;
   }
@@ -34,9 +34,22 @@ body {
   .blurb1 {
     min-width: 100%;
   }
+
   .blurb2 {
     min-width: 100%;
   }
+}
+
+#switcher {
+  float: right;
+  cursor: pointer;
+  background-color: darkred;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+
 }
 
 h1,
@@ -110,7 +123,7 @@ h2 {
   border-radius: 3px;
 }
 
-.imgcontainer {
+#imgcontainer {
   width: 80%;
   height: 80%;
   border-radius: 20px;
